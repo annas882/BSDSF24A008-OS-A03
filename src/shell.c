@@ -302,6 +302,7 @@ int handle_builtin(char** arglist) {
         printf("  history   : Show command history\n");
         printf("  jobs      : List background jobs\n");
         printf("  set       : List defined shell variables\n");
+        printf("  !n        : Re-execute command n from history\n");
         return 1;
     }
 
